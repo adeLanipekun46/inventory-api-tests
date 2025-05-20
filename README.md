@@ -40,22 +40,11 @@ This project contains automated API tests for an Inventory Management System usi
 
 ---
 
-## 🧰 Prerequisites
 
-- [Docker](https://www.docker.com/) installed
-
-
-# To run the test local machine:
-cd inventory-api-tests
-npm install
-npm test 
-or
-npx jest
-
-
-    Sample Output 
-PASS  tests/product.test.js
-PASS  tests/transaction.test.js
-Test Suites: 2 passed, 2 total
-Tests:       6 passed, 6 total
-
+# To run the test locally machine:
+- clone the repository
+- cd into inventory-api-tests directory
+- create `.env` file
+- Put the `URL`, `USERNAME`, `PASSWORD` into the `.env` file created
+- run `npm install` in terminal
+- run `npm test` or `npx jest` to execute the tests
